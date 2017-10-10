@@ -1,0 +1,3 @@
+# learningjavascriptirockexample
+This is really simple program to display an image and on clicking the image changes... 
+This is an example from O'Reilly Head First Javascript 
