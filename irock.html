@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>irock Example</title>
+	<script type="text/javascript">
+		function touckrock() {
+			var username= prompt('What is your name?', 'Enter yout Name');
+
+			if(username){
+				alert('It is good to see you '+ username+ '.');
+				document.getElementById("click_rock").src= "/irock_images/rock_happy.png";
+			}
+			
+		}
+	</script>
+</head>
+<body onload= "alert('Welcome to irock')";>
+	<img id="click_rock" src="/irock_images/rock.png" alt="irock" style="cursor: pointer" onclick="touckrock();">
+
+
+</body>
+</html>
